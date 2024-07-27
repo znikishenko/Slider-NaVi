@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slider{
+    display: flex;
+    transition: 0.5s;
+}
+.slider__slide{
+    flex: 0 0 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+
+.slider__button{
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: aqua;
+    margin-top: 100px;
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.main {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+.slider__slide-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.box__header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box__img, .box__img2 {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.slider__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slider__button {
+    border: none;
+    background: #fcb69f;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.slider__button:hover {
+    background: #ff9770;
+}
+
+.slider__right, .slider__left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fcb69f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.slider__right:hover, .slider__left:hover {
+    background: #ff9770;
+}
+
+.slider__right {
+    right: 10px;
+}
+
+.slider__left {
+    left: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
